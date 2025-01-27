@@ -68,7 +68,7 @@ namespace FlappyBird
                 isJumpPressed = false;
             }
 
-            playerPosition.Y += Gravity * deltaTime;
+            playerPosition.Y += Gravity ;
 
             if (Gravity < maxGravity)
             {

@@ -1,3 +1,3 @@
 ﻿
-using var game = new MonoGameFlappyBird.Game1();
+using var game = new FlappyBird.Game1();
 game.Run();
